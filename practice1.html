@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    header {
+        background-color: orange;
+        height: 40px;
+    }
+
+    textarea {
+        border: 3px solid aquamarine;
+    }
+
+</style>
+
+
+</head>
+
+
+<body>
+    <header>
+
+        <h2> nufyn 회사 설문조사 </h2>
+    
+    </header>
+    <div style="border: 2px solid black;">
+
+        <form action="#" method="#">
+            <span style="color:yellow;"> 이름: </span>
+            <input type="text" name="name" placeholder="이름을 반드시 입력해주세요">
+        </form>
+
+        <form action="#" method="#">
+            주소 :
+            <input type="text" name="address" value="대구 달서구" >
+        </form>
+
+        <form action="#" method="#">
+            회사 :
+            <input type="text" name="office" value="nufyn 회사" disabled>
+        </form>
+
+        <form action="#" method="#">
+            성별을 입력하세요 :
+            <input type="radio" name="gender" value="m">남자
+            <input type="radio" name="gender" value="m">여자
+        </form>
+
+        <form action="#" method="#">
+            전화번호 앞자리: 
+            <input type="radio" name="phone number" value="etc"> 기타
+            <input type="radio" name="phone number" value="010"> 010
+
+        </form>
+        
+        <form action="#" method="#">
+            좋아하는 애완 동물은?
+            <input type="checkbox" name="pet" value="dog"> 개
+            <input type="checkbox" name="pet" value="cat"> 고양이
+            <input type="checkbox" name="pet" value="snake"> 뱀
+            <input type="checkbox" name="pet" value="ant"> 개미
+        </form>
+
+        <form action="#" method="#">
+            ID :
+            <input type="text" name="id" placeholder="아이디">
+            <br><br>
+            PW :
+            <input type="password" name="pw" placeholder="패스워드">
+        </form>
+
+        <form action="#" method="#">
+            <select name="number" size="3">
+                <option value="010">010</option>
+                <option value="016">016</option>
+                <option value="017">017</option>
+            </select>
+        </form>
+
+        <form action="#">
+            <textarea name="memo"  cols="30" rows="10" placeholder="memo"></textarea>
+
+        </form>
+
+        <form action="#">
+            <input type="submit" name="send" value="보내기">
+        </form>
+    </div>
+</body>
+</html>
